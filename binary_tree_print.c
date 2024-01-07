@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "binary_trees.h"
-
-/* Original code from http://stackoverflow.com/a/13755911/5184480 */
 
 /**
  * print_t - Stores recursively each level in an array of strings
@@ -15,6 +10,7 @@
  *
  * Return: length of printed tree after process
  */
+
 static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 {
 	char b[6];
